@@ -139,7 +139,7 @@ Cross
 		"ypos"			"c-200"//201
 		"wide"			"407"//407
 		"tall"			"404"//405
-		"fgcolor"         "255 255 30 255"
+		"fgcolor"         "255 255 255 255"
 		
     "controlName"     "ceXLabel"
     "fieldName"       "xHairScout"

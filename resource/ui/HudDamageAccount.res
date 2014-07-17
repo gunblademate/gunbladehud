@@ -12,11 +12,11 @@
 		"delta_item_font"		"HudFontMediumSmall"
 		"delta_item_font_big"	"HudFontMediumSmall"
 		
-		"delta_item_font_minmode"		"M0reFont24Outline"
-		"delta_item_font_big_minmode"	"M0reFont24Outline"
+		"delta_item_font_minmode"		"M0reFont20"//M0reFont20Outline for an outlined number
+		"delta_item_font_big_minmode"	"M0reFont20"//M0reFont20Outline
 		
-		"PositiveColor_Minmode"			"255 255 0 255"
-		"NegativeColor_Minmode"			"255 255 0 255"
+		"PositiveColor_Minmode"			"255 255 0 255"//Yellow
+		"NegativeColor_Minmode"			"255 255 0 255"//Yellow
 	}
 	"DamageAccountValue"
 	{
@@ -43,7 +43,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontMediumSmallBold"
 		"font_minmode"	"M0reFont24"
 	}
 	"DamageAccountValueShadow"
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontMediumSmallBold"
 		"font_minmode"	"M0refont24"
 	}
 }

@@ -220,8 +220,8 @@
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
 	}		
@@ -230,12 +230,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-25"
-		"ypos"			"r70"	[$WIN32]
+		"xpos"			"c-13"
+		"ypos"			"448"	[$WIN32]
 		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"26"
+		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -248,43 +248,41 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"visible"	"0"
 		}
-	}		
+	}				
 	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-80"
-		"ypos"			"r24"
+		"xpos"			"-5"	[$WIN32]
+		"ypos"			"470"	[$WIN32]
 		"zpos"			"4"
-		"wide"			"160"
-		"tall"			"24"
+		"wide"			"f0"	[$WIN32]
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DefaultLarge"
-		"fgcolor"		"TanLight"
+		"font"			"defaultverysmall"
+		"fgcolor"		"255 255 255 255"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
+	}		
 			
 	"PlayingToBG"
 	{
@@ -327,7 +325,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-105"
-		"ypos"			"r95"
+		"ypos"			"r73"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -366,7 +364,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c-45"
-		"ypos"			"r95"
+		"ypos"			"r73"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -404,11 +402,11 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r95"
+		"xpos"			"c-25"
+		"ypos"			"430"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -416,7 +414,6 @@
 		{
 			"ypos"		"r100"
 		}
-		
 		"if_specialdelivery"
 		{
 			"ypos"		"r100"

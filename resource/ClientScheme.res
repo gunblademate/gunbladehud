@@ -751,6 +751,28 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		M0refont20
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		M0refont22
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		M0refont18Outline
 		{
 			"1"
@@ -771,6 +793,28 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
+			}
+		}
+		M0refont20Outline
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		M0refont22Outline
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}
 		M0refont24Outline
