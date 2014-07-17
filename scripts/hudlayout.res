@@ -143,7 +143,7 @@ Cross
 		
     "controlName"     "ceXLabel"
     "fieldName"       "xHairScout"
-	"visible"         "0"
+	"visible"         "1"
     "enabled"         "1"
     "zpos"            "1"
     "font"            "xHairScout"
